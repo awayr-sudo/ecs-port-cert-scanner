@@ -1,0 +1,25 @@
+{
+  "name": "scany",
+  "version": "1.0.0",
+  "description": "Port Scanner for Cisotronix",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cisotronix/lambda_nmap.git"
+  },
+  "author": "Muhammad Danish Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cisotronix/lambda_nmap/issues"
+  },
+  "homepage": "https://github.com/Cisotronix/lambda_nmap#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1415.0",
+    "xml2js": "^0.6.2",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.32.1"
+  }
+}
